@@ -83,14 +83,14 @@
 # - A (7,-5); B (1,-1) -> 7,21
 # √(xb - xa)2 + (yb - ya)2
 
-# from cmath import sqrt
+from cmath import sqrt
 
-# a_x = float(input("Input x coordinate A "))
-# a_y = float(input("Input y coordinate A "))
+a_x = float(input("Input x coordinate A "))
+a_y = float(input("Input y coordinate A "))
 
-# b_x = float(input("Input x coordinate B "))
-# b_y = float(input("Input y coordinate B "))
+b_x = float(input("Input x coordinate B "))
+b_y = float(input("Input y coordinate B "))
 
 
-# res = sqrt((b_x - a_x)**2 + (b_y - a_y)**2)
-# print(res)
+res = sqrt((b_x - a_x)**2 + (b_y - a_y)**2)
+print(res)
