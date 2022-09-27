@@ -15,15 +15,29 @@
 # Пример:
 # пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
-num = int(input("Input number "))
-res = []
-list = []
-res2 = 1
-for i in range(1, num + 1):
-    list.append(i)
+# num = int(input("Input number "))
+# res = []
+# list = []
+# res2 = 1
+# for i in range(1, num + 1):
+#     list.append(i)
 
-for i in list:
-    res2 = res2 * i
-    res.append(res2)
+# for i in list:
+#     res2 = res2 * i
+#     res.append(res2)
 
-print(res)
+# print(res)
+
+
+# 16.Задайте список из n чисел последовательности   и выведите на экран их сумму.
+
+# num = int(input("Input number "))
+# res = []
+# res2 = 0
+# for i in range(1, num + 1):
+#     res.append((1 + 1/i)**i)
+
+# for i in res:
+#     res2 = res2 + i
+
+# print(res2)
