@@ -16,18 +16,33 @@
 # o [2, 3, 4, 5, 6] => [12, 15, 16];
 # o [2, 3, 5, 6] => [12, 15]
 
-numbers = [2, 3, 4, 5, 6]
-new_numbers = list(reversed(numbers))
-multiple = 0
-res = []
-if (len(numbers) % 2 > 0):
-    length = round(len(numbers) / 2)
-else:
-    length = round(len(numbers) / 2 - 1)
+# numbers = [2, 3, 4, 5, 6]
+# new_numbers = list(reversed(numbers))
+# multiple = 0
+# res = []
+# if (len(numbers) % 2 > 0):
+#     length = round(len(numbers) / 2)
+# else:
+#     length = round(len(numbers) / 2 - 1)
 
 
-for i in range(length + 1):
-    multiple = numbers[i] * new_numbers[i]
-    res.append(multiple)
+# for i in range(length + 1):
+#     multiple = numbers[i] * new_numbers[i]
+#     res.append(multiple)
 
-print(res)
+# print(res)
+
+
+# Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
+# Пример:
+# o [1.1, 1.2, 3.1, 5, 10.01] => 0.19
+
+# numbers = [1.1, 1.2, 3.1, 5, 10.01]
+# new_numbers = []
+# for i in numbers:
+#     if str(i).find(".") > 0:
+#         new_numbers.append("0" + str(i)[str(i).find("."):])
+
+# new_numbers.sort()
+
+# print(f"{numbers} => {float(new_numbers[-1]) - float(new_numbers[0])}")
