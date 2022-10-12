@@ -66,9 +66,27 @@
 # - Для n = 35:  Ответ: 5
 
 
-num = int(input("Input number "))
+# num = int(input("Input number "))
 
-for i in range(2, num + 1):
-    if num % i == 0:
-        print(f"Для n = {num}: Ответ: {i}")
-        break
+# for i in range(2, num + 1):
+#     if num % i == 0:
+#         print(f"Для n = {num}: Ответ: {i}")
+#         break
+
+
+# Задайте список из N элементов, заполненных числами из промежутка [-N, N]. Найдите произведение элементов на указанных ИНДЕКСАХ. Пять ИНДЕКСОВ хранятся в списке, который вы сами заполняете.
+# Пример списка ИНДЕКСОВ [2, 4, 3, 1, 8]
+# Ввод: 10
+# [-10, -9, ...-4, -3, -2, -1, 0, 1, 2, 3,4....10]
+
+# num = int(input("Input number "))
+# idxs = [2, 4, 3, 1, 8]
+# lst = []
+# res = 1
+# for i in range(-num, num + 1):
+#     lst.append(i)
+# print(lst)
+
+# for i in idxs:
+#     res = res * lst[i]
+# print(res)
