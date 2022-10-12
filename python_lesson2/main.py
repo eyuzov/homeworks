@@ -90,3 +90,13 @@
 # for i in idxs:
 #     res = res * lst[i]
 # print(res)
+
+
+# Требуется посчитать сумму чётных чисел, расположенных между числами 1 и N включительно.
+
+# num = int(input("Input number "))
+# res = 0
+# for i in range(2, num + 1, 2):
+#     res += i
+
+# print(res)
