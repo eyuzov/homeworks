@@ -40,7 +40,9 @@
 # Пример:
 # o [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-# numbers = [1.1, 1.2, 3.1, 5, 10.01]
+# 1.1, 1.2, 3.1, 5, 10.02
+
+# numbers = [1.1, 1.2, 3.1, 5, 10.02]
 # new_numbers = []
 # for i in numbers:
 #     if str(i).find(".") > 0:
@@ -48,7 +50,8 @@
 
 # new_numbers.sort()
 
-# print(f"{numbers} => {float(new_numbers[-1]) - float(new_numbers[0])}")
+# print(
+#     f"{numbers} => {round(float(new_numbers[-1]) - float(new_numbers[0]), 2)}")
 
 
 # Напишите программу, которая будет преобразовывать десятичное число в двоичное.
