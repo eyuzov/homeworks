@@ -21,7 +21,7 @@
 #     if num % i == 0:
 #         list_simple.append(i)
 #         num //= i
-#         i = 2
+# i = 2
 #     else:
 #         i += 1
 
