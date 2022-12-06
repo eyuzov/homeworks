@@ -1,8 +1,25 @@
 package java_projects.homeworks.java_lesson1;
 
+import java.util.Scanner;
+
 public class program {
+
     public static void main(String[] args) {
         // ========================= 1-я задача==================================
+
+        // Scanner iScanner = new Scanner(System.in);
+
+        // System.out.printf("input number: ");
+        // int number = iScanner.nextInt();
+        // int resSum = 0;
+        // int resMult = 1;
+        // for (int i = 1; i < number; i++) {
+
+        // resSum = resSum + i;
+        // resMult = resMult * i;
+        // }
+        // System.out.println("Sum = " + resSum);
+        // System.out.println("Multiple = " + resMult);
 
         // ========================= 2-я задача==================================
         // int x, y;
