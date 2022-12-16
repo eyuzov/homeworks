@@ -3,7 +3,7 @@ package java_projects.homeworks.java_lesson4;
 import java.util.LinkedList;
 
 public class task1 {
-    public static void main(String[] args) {
+    public static void reverseList() {
 
         LinkedList<Integer> myList = new LinkedList<Integer>();
         LinkedList<Integer> myListReverse = new LinkedList<Integer>();
@@ -19,5 +19,9 @@ public class task1 {
             myListReverse.add(myList.pollLast());
         }
         System.out.println(myListReverse);
+    }
+
+    public static void main(String[] args) {
+        reverseList();
     }
 }
