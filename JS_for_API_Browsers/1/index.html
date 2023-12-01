@@ -55,20 +55,19 @@
         tdElem.classList.add("td-currPart");
         trElem.append(tdElem);
         addBtn = document.createElement("button");
-        addBtn.textContent = "ADD";
+        addBtn.textContent = "Записаться";
         addBtn.classList.add("add-btn");
         trElem.append(addBtn);
-        removeButton = document.createElement("button");
-        removeButton.textContent = "REMOVE";
-        removeButton.classList.add("remove-btn");
-        removeButton.classList.add("remove-btn-none");
-        trElem.append(removeButton);
+        removeBtn = document.createElement("button");
+        removeBtn.textContent = "Отменить запись";
+        removeBtn.classList.add("remove-btn");
+        removeBtn.classList.add("remove-btn-none");
+        trElem.append(removeBtn);
         trElem.classList.add("line");
         div.append(trElem);
       });
 
       const btnArray = document.querySelectorAll(".add-btn");
-      const removeBtn = document.querySelector(".remove-btn");
       btnArray.forEach((element) => {
         element.addEventListener("click", (e) => {
           const currPartForChange = e.target.parentNode.children[4];
