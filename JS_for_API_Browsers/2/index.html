@@ -96,8 +96,7 @@
       link.forEach((elem) => {
         elem.addEventListener("click", (e) => {
           if ((e.target.tagName = "A")) {
-            slideIndex = e.target.textContent;
-            showSlides(Number(slideIndex));
+            showSlides(Number((slideIndex = e.target.textContent)));
           }
         });
       });
@@ -106,7 +105,7 @@
       const previous = document.querySelector(".previous");
 
       next.addEventListener("click", () => {
-        showSlides((slideIndex += 1));
+        showSlides(parseInt(++slideIndex));
       });
 
       previous.addEventListener("click", () => {
