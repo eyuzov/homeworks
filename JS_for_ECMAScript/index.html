@@ -51,15 +51,18 @@
         if (a.classList.contains(b)) {
           //   console.log(a);
           return a;
-        } else {
-          const arr = Array.from(a.childNodes);
-          const newArr = arr.filter((el) => {
-            return el.nodeType != 3;
-          });
-          newArr.forEach((element) => {
-            return findElementByClass(element, b);
-          });
         }
+        let children = [...a.children];
+        for (let child of children) {
+          const foundElement = findElementByClass(
+            child,
+            b
+          );
+          if (foundElement) {
+            return foundElement;
+          }
+        }
+        return null;
       }
 
       const rootElement =
