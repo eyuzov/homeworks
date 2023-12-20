@@ -49,14 +49,10 @@
         }
         getTotalPrice() {
           let sum = 0;
-          for (
-            let i = 0;
-            i < this.products.length;
-            i++
-          ) {
-            const element = this.products[i];
-            sum += element.price;
-          }
+          sum = this.products.reduce(
+            (acc, item) => acc + item.price,
+            0
+          );
           return sum;
         }
       }
