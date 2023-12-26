@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
       .myElement {
@@ -45,24 +42,19 @@
 
       async function main() {
         try {
-          const container =
-            document.createElement("div");
+          const container = document.createElement("div");
           container.classList.add("container");
 
           const users = await getUserData();
 
           users.forEach((element) => {
-            const btnRemove =
-              document.createElement("button");
+            const btnRemove = document.createElement("button");
             btnRemove.classList.add("btn-remove");
             btnRemove.textContent = "REMOVE";
-            const flexElem =
-              document.createElement("div");
+            const flexElem = document.createElement("div");
             flexElem.classList.add("myElement");
-            const nameElem =
-              document.createElement("h3");
-            const emailElem =
-              document.createElement("p");
+            const nameElem = document.createElement("h3");
+            const emailElem = document.createElement("p");
             nameElem.textContent = element.name;
             emailElem.textContent = element.email;
             flexElem.appendChild(nameElem);
@@ -72,26 +64,16 @@
             document.body.appendChild(container);
           });
 
-          const btnRemove =
-            document.querySelectorAll(
-              ".btn-remove"
-            );
+          const btnRemove = document.querySelectorAll(".btn-remove");
           btnRemove.forEach((element) => {
-            element.addEventListener(
-              "click",
-              (e) => {
-                e.target
-                  .closest(".myElement")
-                  .remove();
-                counter--;
-                if (counter === 0) {
-                  document
-                    .querySelector(".container")
-                    .remove();
-                  main();
-                }
+            element.addEventListener("click", (e) => {
+              e.target.closest(".myElement").remove();
+              counter--;
+              if (counter === 0) {
+                document.querySelector(".container").remove();
+                main();
               }
-            );
+            });
           });
         } catch (error) {
           console.log(error.message);
