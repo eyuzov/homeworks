@@ -26,6 +26,10 @@ cookers.set("Виктор", "Пицца");
 cookers.set("Ольга", "Суши");
 cookers.set("Дмитрий", "Десерты");
 
+cookers.forEach((dish, cook) => {
+  console.log(`${cook} - специализация: ${dish}`);
+});
+
 const DmitryDishes = new Set();
 DmitryDishes.add("Тирамису");
 DmitryDishes.add("Чизкейк");
@@ -43,14 +47,20 @@ cookersAndDishes.set(Dmitry, DmitryDishes);
 cookersAndDishes.set(Olga, OlgaDishes);
 cookersAndDishes.set(Victor, VictorDishes);
 
+cookersAndDishes.forEach((cook, dish) => {
+  cook.forEach((dishPref) => {
+    console.log(`${dishPref} повар: ${dish.name}`);
+  });
+});
+
 const orderedDishes = new Map();
 orderedDishes.set(Irina, "Чизкейк");
 orderedDishes.set(Mariya, "Суши 'Калифорния' и Пиццу 'Маргарита'");
 orderedDishes.set(Alexey, "Пиццу 'Пепперони' и Тирамису");
 
-console.log(`Клиент ${Alexey.name} заказал: ${orderedDishes.get(Alexey)}.`);
-console.log(`Клиент ${Mariya.name} заказал: ${orderedDishes.get(Mariya)}.`);
-console.log(`Клиент ${Irina.name} заказал: ${orderedDishes.get(Irina)}.`);
+orderedDishes.forEach((dish, client) => {
+  console.log(`Клиент ${client.name} заказал: ${dish}`);
+});
 
 // Задание 2
 
