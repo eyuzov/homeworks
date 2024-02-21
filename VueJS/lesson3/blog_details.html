@@ -69,12 +69,24 @@
         <aside>
           <h1 class="aside_title">Tags</h1>
           <div id="app_buttons">
-            <button @click="sort('kitchen')">Kitchen</button>
-            <button @click="sort('bedroom')">Bedroom</button>
-            <button @click="sort('building')">Building</button>
-            <button @click="sort('architecture')">Architecture</button>
-            <button @click="sort('kitchen_planning')">Kitchen Planning</button>
-            <button @click="sort('bedroom')">Bedroom</button>
+            <button class="sort-button" @click="sort('kitchen')">
+              Kitchen
+            </button>
+            <button class="sort-button" @click="sort('bedroom')">
+              Bedroom
+            </button>
+            <button class="sort-button" @click="sort('building')">
+              Building
+            </button>
+            <button class="sort-button" @click="sort('architecture')">
+              Architecture
+            </button>
+            <button class="sort-button" @click="sort('kitchen_planning')">
+              Kitchen Planning
+            </button>
+            <button class="sort-button" @click="sort('bedroom')">
+              Bedroom
+            </button>
           </div>
         </aside>
       </section>
@@ -157,13 +169,15 @@
               tag: "kitchen_planning",
             },
           ],
-          tag: "",
+          tag: "*",
         },
 
         computed: {
           article() {
             return this.articleArr.filter((element) => {
               if (element.tag === this.tag) {
+                return element;
+              } else if (this.tag === "*") {
                 return element;
               }
             });
