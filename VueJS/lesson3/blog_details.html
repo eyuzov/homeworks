@@ -113,7 +113,7 @@
         el: "#app",
         methods: {},
         data: {
-          article: [
+          articleArr: [
             {
               imgUrl: "img/article_img1.png",
               title: "1 Let’s Get Solution For Building Construction Work",
@@ -157,18 +157,26 @@
               tag: "kitchen_planning",
             },
           ],
+          tag: "",
+        },
+
+        computed: {
+          article() {
+            return this.articleArr.filter((element) => {
+              if (element.tag === this.tag) {
+                return element;
+              }
+            });
+          },
         },
       });
 
       const app_buttons = new Vue({
         el: "#app_buttons",
+        data: {},
         methods: {
           sort(tag) {
-            app.$data.article = app.$data.article.filter((element) => {
-              if (element.tag === tag) {
-                return element;
-              }
-            }, 0);
+            app.$data.tag = tag;
           },
         },
       });
