@@ -26,16 +26,17 @@
           </p>
           <div id="app">
             <div>
-                <div class="article-container">
+        <div class="article-container">
               <div v-for="item in article" :key="item" class="article-container_flex__section">
-                <img src="../../assets/img/article_img1.png" alt="room image"/>
+                <a href="blog_details.html"><img src="../../assets/img/article_img1.png" alt="room image"/></a>
                 <h3>{{ item.title }}</h3>
                 <div class="article-container_flex__link">
                   <p>{{ item.date }}</p>
                   <img src="../../assets/img/arrow.png" alt="" />
                 </div>
               </div>
-            </div></div>
+            </div>
+    </div>
           </div>
         </article>
 
@@ -71,9 +72,8 @@
 </template>
 
 <script>
-export default {
-    name: 'HomeworksAppArticle',
 
+export default {
     data() {
         return {
             articleArr: [
@@ -124,9 +124,6 @@ export default {
         };
     },
 
-    mounted() {
-        
-    },
     computed: {
           article() {
             return this.articleArr.filter((element) => {
@@ -140,10 +137,15 @@ export default {
         },
     methods: {
         sort(tag) {
+            console.log(tag);
             this.$data.tag = tag;
           },
-    },
+}
 };
+
+
+    
+
 </script>
 
 
@@ -230,7 +232,7 @@ article
     width: 800px
     margin-top: 50px
 .article-container_flex__section:hover
-    background-color: beige
+    background-color: #f4f0ec
     
 .article-container_flex__section
     box-sizing: border-box
