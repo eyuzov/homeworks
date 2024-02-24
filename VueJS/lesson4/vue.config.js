@@ -1,6 +1,6 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === "production" ? "/lesson4/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/homeworks/" : "/",
   pages: {
     index: {
       entry: "src/main.js",
