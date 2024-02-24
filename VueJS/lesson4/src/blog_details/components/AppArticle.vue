@@ -229,6 +229,9 @@ article
     flex-wrap: wrap
     width: 800px
     margin-top: 50px
+.article-container_flex__section:hover
+    background-color: beige
+    
 .article-container_flex__section
     box-sizing: border-box
     border: 1px solid rgb(231, 231, 231)
@@ -237,6 +240,7 @@ article
 
     width: 48%
     padding: 21px
+
     .article-container_flex__link
         display: flex
         justify-content: space-between
