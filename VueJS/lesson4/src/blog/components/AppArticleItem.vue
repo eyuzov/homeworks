@@ -2,7 +2,7 @@
     <div>
         <div class="article-container">
               <div v-for="item in article" :key="item" class="article-container_flex__section">
-                <a href="blog_details.html"><img src="../../assets/img/article_img1.png" alt="room image"/></a>
+                <a href="blog_details.html"><img src="@/assets/img/article_img1.png" alt="room image"/></a>
                 <h3>{{ item.title }}</h3>
                 <div class="article-container_flex__link">
                   <p>{{ item.date }}</p>
@@ -24,7 +24,7 @@ export default {
               date: "26 December,2022",
             },
             {
-              imgUrl: "../../assets/img/article_img2.png",
+              imgUrl: "@/assets/img/article_img2.png",
               title: "Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
             },

@@ -59,7 +59,17 @@ body
 .content
     padding: 0 calc(50% - 600px)
 
-    .article-container_flex
+article
+    margin-top: 200px
+    h1
+        color: rgb(41, 47, 54)
+        font-family: DM Serif Display
+        font-size: 50px
+        font-weight: 400
+        line-height: 125%
+        letter-spacing: 2%
+        text-align: left
+.article-container_flex
         box-sizing: border-box
         border: 1px solid rgb(231, 231, 231)
         border-radius: 62px
