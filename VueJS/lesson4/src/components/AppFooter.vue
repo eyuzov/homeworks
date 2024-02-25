@@ -15,9 +15,9 @@
         <div class="footer_menu">
           <h3>Pages</h3>
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Blog</li>
+            <a href="index.html"><li>Home</li></a>
+            <a href="blog_details.html"><li>Projects</li></a>
+            <a href="blog.html"><li>Blog</li></a>
           </ul>
         </div>
         <div class="footer_contacts">
@@ -73,6 +73,15 @@ footer
     .footer_title-wrap
         display: flex
     .footer_menu
+        a
+            text-decoration: none
+            color: rgb(77, 80, 83)
+            font-family: Jost
+            font-size: 22px
+            font-weight: 400
+            line-height: 300%
+            letter-spacing: 1%
+            text-align: left
         ul
             padding-left: 0px
         li

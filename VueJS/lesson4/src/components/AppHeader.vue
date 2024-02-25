@@ -7,7 +7,7 @@
         </div>
         <div class="header-right">
           <ul class="header-right__menu">
-            <a href="#"><li>Home</li></a>
+            <a href="index.html"><li>Home</li></a>
             <a href="blog_details.html"><li>Project</li></a>
             <a href="blog.html"><li>Blog</li></a>
           </ul>

@@ -11,8 +11,8 @@
 <script>
 
 
-import AppHeader from "./components/AppHeader.vue"
-import AppFooter from "./components/AppFooter.vue"
+import AppHeader from "../components/AppHeader.vue"
+import AppFooter from "../components/AppFooter.vue"
 import AppBanner from "./components/AppBanner.vue"
 import AppArticle from "./components/AppArticle.vue"
 
