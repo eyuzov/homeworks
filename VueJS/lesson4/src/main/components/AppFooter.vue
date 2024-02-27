@@ -4,7 +4,7 @@
             <footer>
         <div class="footer_title">
           <div class="footer_title-wrap">
-            <img src="../assets/img/Logo.svg" alt="logo" />
+            <img src="@/assets/img/Logo.svg" alt="logo" />
             <h2>Interno</h2>
           </div>
           <p>

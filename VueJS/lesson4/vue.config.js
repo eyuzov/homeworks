@@ -3,7 +3,7 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === "production" ? "/homeworks/" : "/",
   pages: {
     index: {
-      entry: "src/main.js",
+      entry: "src/main/main.js",
       template: "public/index.html",
       filename: "index.html",
       title: process.env.VUE_APP_NAME || "Application",

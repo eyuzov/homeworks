@@ -3,50 +3,50 @@
         <div class="content">
             <section class="kitchens">
         <div class="kitchen-block">
-          <img src="../assets/img/kitchen1.png" alt="kitchen photo" />
+          <img src="@/assets/img/kitchen1.png" alt="kitchen photo" />
           <div class="kitchen-block_text-button">
             <div class="kitchen-block_text-button__text">
               <h3>Modern Kitchan</h3>
               <h6>Decor / Artchitecture</h6>
             </div>
             <div class="kitchen-block_text-button__button">
-              <a href="#"><img src="../assets/img/arrow.png" alt="link" /></a>
+              <a href="#"><img src="@/assets/img/arrow.png" alt="link" /></a>
             </div>
           </div>
         </div>
         <div class="kitchen-block">
-          <img src="../assets/img/kitchen2.png" alt="kitchen photo" />
+          <img src="@/assets/img/kitchen2.png" alt="kitchen photo" />
           <div class="kitchen-block_text-button">
             <div class="kitchen-block_text-button__text">
               <h3>Modern Kitchan</h3>
               <h6>Decor / Artchitecture</h6>
             </div>
             <div class="kitchen-block_text-button__button">
-              <a href="#"><img src="../assets/img/arrow.png" alt="link" /></a>
+              <a href="#"><img src="@/assets/img/arrow.png" alt="link" /></a>
             </div>
           </div>
         </div>
         <div class="kitchen-block">
-          <img src="../assets/img/kitchen3.png" alt="kitchen photo" />
+          <img src="@/assets/img/kitchen3.png" alt="kitchen photo" />
           <div class="kitchen-block_text-button">
             <div class="kitchen-block_text-button__text">
               <h3>Modern Kitchan</h3>
               <h6>Decor / Artchitecture</h6>
             </div>
             <div class="kitchen-block_text-button__button">
-              <a href="#"><img src="../assets/img/arrow.png" alt="link" /></a>
+              <a href="#"><img src="@/assets/img/arrow.png" alt="link" /></a>
             </div>
           </div>
         </div>
         <div class="kitchen-block">
-          <img src="../assets/img/kitchen4.png" alt="kitchen photo" />
+          <img src="@/assets/img/kitchen4.png" alt="kitchen photo" />
           <div class="kitchen-block_text-button">
             <div class="kitchen-block_text-button__text">
               <h3>Modern Kitchan</h3>
               <h6>Decor / Artchitecture</h6>
             </div>
             <div class="kitchen-block_text-button__button">
-              <a href="#"><img src="../assets/img/arrow.png" alt="link" /></a>
+              <a href="#"><img src="@/assets/img/arrow.png" alt="link" /></a>
             </div>
           </div>
         </div>

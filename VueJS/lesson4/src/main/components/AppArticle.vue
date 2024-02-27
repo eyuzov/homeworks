@@ -4,27 +4,27 @@
             <div class="articles">
         <div class="article-container">
           <div class="article-container_flex">
-            <img src="../assets/img/article_img1.png" alt="" />
+            <img src="@/assets/img/article_img1.png" alt="" />
             <h3>Let’s Get Solution For Building Construction Work</h3>
             <div class="article-container_flex__link">
               <p>26 December,2022</p>
-              <img src="../assets/../assets/img/arrow.png" alt="" />
+              <img src="@/assets/img/arrow.png" alt="" />
             </div>
           </div>
           <div class="article-container_flex">
-            <img src="../assets/img/article_img2.png" alt="" />
+            <img src="@/assets/img/article_img2.png" alt="" />
             <h3>Let’s Get Solution For Building Construction Work</h3>
             <div class="article-container_flex__link">
               <p>26 December,2022</p>
-              <img src="../assets/img/arrow.png" alt="" />
+              <img src="@/assets/img/arrow.png" alt="" />
             </div>
           </div>
           <div class="article-container_flex">
-            <img src="../assets/img/article_img3.png" alt="" />
+            <img src="@/assets/img/article_img3.png" alt="" />
             <h3>Let’s Get Solution For Building Construction Work</h3>
             <div class="article-container_flex__link">
               <p>26 December,2022</p>
-              <img src="../assets/img/arrow.png" alt="" />
+              <img src="@/assets/img/arrow.png" alt="" />
             </div>
           </div>
         </div>

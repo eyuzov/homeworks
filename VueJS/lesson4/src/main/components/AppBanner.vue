@@ -19,7 +19,7 @@ body
 .content
     padding: 0 calc(50% - 600px)
 .banner
-    background-image: url("../assets/img/banner.png")
+    background-image: url("@/assets/img/banner.png")
     height: 757px
     margin-top: 53px
 

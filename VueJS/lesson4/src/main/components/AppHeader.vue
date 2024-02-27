@@ -3,7 +3,7 @@
         <div class="content">
             <header>
         <div class="header-left">
-          <img src="../assets/img/Logo.svg" alt="" /><span>Interno</span>
+          <img src="@/assets/img/Logo.svg" alt="" /><span>Interno</span>
         </div>
         <div class="header-right">
           <ul class="header-right__menu">

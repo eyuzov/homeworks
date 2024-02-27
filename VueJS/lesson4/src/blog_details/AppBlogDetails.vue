@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import AppHeader from "../components/AppHeader.vue"
+import AppHeader from "@/main/components/AppHeader.vue"
 import AppBanner from "./components/AppBanner.vue"
 import AppArticle from "./components/AppArticle.vue"
-import AppFooter from "../components/AppFooter.vue"
+import AppFooter from "@/main/components/AppFooter.vue"
 
 
 export default {
