@@ -28,7 +28,7 @@
             <div>
         <div class="article-container">
               <div v-for="item in article" :key="item" class="article-container_flex__section">
-                <a href="blog_details.html"><img src="../../assets/img/article_img1.png" alt="room image"/></a>
+                <a href="blog_details.html"><img :src="item.imgUrl" alt="room image"/></a>
                 <h3>{{ item.title }}</h3>
                 <div class="article-container_flex__link">
                   <p>{{ item.date }}</p>
@@ -78,43 +78,43 @@ export default {
         return {
             articleArr: [
             {
-              imgUrl: "img/article_img1.png",
+                imgUrl: require("@/assets/img/article_img1.png"),
               title: "1 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "kitchen",
             },
             {
-              imgUrl: "img/article_img2.png",
+                imgUrl: require("@/assets/img/article_img2.png"),
               title: "2 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "bedroom",
             },
             {
-              imgUrl: "img/article_img3.png",
+                imgUrl: require("@/assets/img/article_img3.png"),
               title: "3 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "kitchen",
             },
             {
-              imgUrl: "img/article_img1.png",
+                imgUrl: require("@/assets/img/article_img1.png"),
               title: "4 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "building",
             },
             {
-              imgUrl: "img/article_img2.png",
+                imgUrl: require("@/assets/img/article_img2.png"),
               title: "5 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "architecture",
             },
             {
-              imgUrl: "img/article_img3.png",
+                imgUrl: require("@/assets/img/article_img3.png"),
               title: "6 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "kitchen_planning",
             },
             {
-              imgUrl: "img/article_img1.png",
+                imgUrl: require("@/assets/img/article_img1.png"),
               title: "7 Let’s Get Solution For Building Construction Work",
               date: "26 December,2022",
               tag: "kitchen_planning",
